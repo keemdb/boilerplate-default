@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+</head>
+<body>
+	<h2>1. 숫자</h2>
+	<script>
+		document.write(1+2);
+	</script>
+	<h2>2. 문자열</h2>
+	<script>
+		document.write('호롤롤로');
+	</script>
+	<h2>3. 숫자 문자열 조합</h2>
+	<script>
+		document.write(100*5+'원입니다');
+	</script>
+	<h2>4. 숫자 문자열 함정</h2>
+	<script>
+		document.write('합계는'+100+200+'원입니다<br>');
+		document.write('합계는'+(100+200)+'원입니다');
+	</script>
+	<h2>5. 변수저장</h2>
+	<script>
+		var number = 10;
+		document.write(number * number);
+	</script>
+	<h2>6. 알림과 인쇄</h2>
+	<script>
+		/* window.alert('인쇄합니다.');
+		window.print(); */
+
+	</script>
+	<h2>7. if문으로 인쇄</h2>
+	<script>
+		/* var ans = window.confirm('인쇄할까요?');
+		if(ans === true){
+			window.print();
+		}else{
+			alert('ㅠㅠ');
+		} */
+
+	</script>
+	<h2>8. 버튼클릭 이벤트</h2>
+	<button id="print">인쇄하기</button>
+	<script>
+		document.getElementById('print').onclick(window.print());
+	</script>
+	<script src="../js/main.js"></script>
+</body>
+</html>
